@@ -39,21 +39,10 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100% !important;
-    max-width: 100vw;
-    height: 100% !important;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 /* navbar */
 nav {
     margin: 0;
     background-color: var(--color2);
-    display: flex;
-    align-items: center;
 }
 
 li {
@@ -73,8 +62,6 @@ li {
 }
 
 img#logo {
-    max-width: 100%;
-    width: 60vw;
     height: auto;
     margin-top: -6rem;
 }
@@ -106,27 +93,10 @@ h1 {
 
 /* Untuk layar tablet */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    img#logo {
-        width: 700px;
-    }
 
 }
 
 /* Untuk layar handphone */
 @media only screen and (max-width: 767px) {
-    nav {
-        max-width: 100;
-    }
-    img#logo {
-        width: 700px;
-        height: auto;
-    }
-    .hero {
-        width: 100;
-        height: auto;
-    }
-    .hero-text p {
-        margin-top: -4rem;
-        margin-left: -2rem;
-    }
+    
 }
