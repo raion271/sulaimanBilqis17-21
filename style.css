@@ -9,19 +9,19 @@
 /* font style */
 @font-face {
     font-family: 'alhambra';
-    src: url('/asset/ALHAMBRA.TTF') format('truetype');
+    src: url('/asset/font/ALHAMBRA.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'brittany';
-    src: url('/asset/BrittanySignature.ttf') format('truetype');
+    src: url('/asset/font/BrittanySignature.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'libre';
-    src: url('/asset/LibreBaskerville-Regular.ttf') format('truetype');
+    src: url('/asset/font/LibreBaskerville-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,6 +33,19 @@
 }
 .libre {
     font-family: 'libre';
+}
+
+/* colors */
+.bg-color1 {
+    background-color: var(--color1);
+}
+
+.bg-color2 {
+    background-color: var(--color2);
+}
+
+.bg-color3 {
+    background-color: var(--color3);
 }
 
 * {
@@ -81,22 +94,4 @@ h1 {
 
 .hover\:bg-blue3:hover {
     background-color: var(--color3);
-}
-
-/* scale effect nav-logo */
-.nav-logo {
-    transition: 1s;
-}
-.nav-logo:hover {
-    transform: rotate(360deg);
-}
-
-/* Untuk layar tablet */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-}
-
-/* Untuk layar handphone */
-@media only screen and (max-width: 767px) {
-    
 }
